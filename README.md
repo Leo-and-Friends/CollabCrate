@@ -9,17 +9,19 @@ A centralized hub that collects and curates open-source opportunities in one pla
 - Empower people to get real-world experience
 
 ## 🧑‍💻 What is your position:
-[Write your role here, e.g. Frontend Developer, Project Manager, UI/UX Designer, etc.]
+Your positions will be the following: Software Engineer, Web Developer, Frontend Engineer and Backend Engineer
 
 ## 🛠 Tech stacks used:
 - React
-- Tailwind CSS
+- CSS
 - React Router DOM
-- Firebase (or Supabase)
+- HTML
+- JS
+- Node.js
 - GitHub for version control
 
 ## 🌐 Hosted by what:
-- Vercel or Netlify (to be confirmed)
+- Not clear yet!
 
 ## 🚀 How to run the project (React):
 ```bash
@@ -39,7 +41,8 @@ npm run dev
 ## 🤔 Why to choose this:
 - Everything open-source in one place
 - Clean UI & filters to find your ideal project
-- Community-focused and beginner-friendly
+- Community-focused and beginner-
+- will get a good experience that show you work experience
 
 ## 🌱 What you will get in future:
 - Personalized project suggestions
@@ -65,8 +68,7 @@ npm run dev
 ```
 
 ## 🤝 Contributors
-- Alessandro – Founder & Lead Developer
-- [Add more team members here]
+- Leo Nexus – Founder & Lead Developer
 
 ## 📅 Timeline
 - ✅ Phase 1: Planning & Research
