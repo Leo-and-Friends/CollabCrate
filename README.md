@@ -1,4 +1,4 @@
-# CollabCrat
+# Collaboration Hub
 
 ## 📌 What is the project:
 A centralized hub that collects and curates open-source opportunities in one place. It helps developers easily discover projects to contribute to, boosting their portfolios and job chances.
