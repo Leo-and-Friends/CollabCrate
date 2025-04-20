@@ -74,8 +74,6 @@ npm run dev
 .gitignore       // Git ignore file
 README.md        // Project documentation
 package.json     // Project dependencies and scripts
-postcss.config.js      // PostCSS config (if using Tailwind)
-vite.config.js         // Vite config (or CRA if preferred)
 ```
 
 ## 🤝 Contributors
