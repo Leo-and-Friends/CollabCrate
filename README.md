@@ -56,15 +56,26 @@ npm run dev
 ## 📸 Screenshots or Demo Link
 [Coming soon — add images or link to the live demo here!]
 
-## 🧱 Project Architecture
+## 📁 Folder Structure
 ```text
 /src
-  ├── components
-  ├── pages
-  ├── context
-  ├── hooks
-  ├── utils
-  └── App.jsx
+  /components    // Reusable UI components
+  /pages         // Route-level pages (Home, ProjectList, etc.)
+  /context       // Context Providers (e.g., AuthContext)
+  /hooks         // Custom React hooks (e.g., useFetchProjects)
+  /utils         // Helper functions (e.g., API calls)
+  /assets        // Images, icons, styles, etc.
+  App.jsx        // Main component with routes
+  main.jsx       // Entry point
+
+/public
+  index.html     // HTML template
+
+.gitignore       // Git ignore file
+README.md        // Project documentation
+package.json     // Project dependencies and scripts
+postcss.config.js      // PostCSS config (if using Tailwind)
+vite.config.js         // Vite config (or CRA if preferred)
 ```
 
 ## 🤝 Contributors
