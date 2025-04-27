@@ -8,7 +8,7 @@ CollabCrate is a centralized hub that collects and curates open-source opportuni
 
 ## 2. Code of Conduct
 
-Please note that all contributors are expected to adhere to our Code of Conduct to foster a welcoming and inclusive environment. [A link to the Code of Conduct will be provided here if available.]
+Please note that all contributors are expected to adhere to our Code of Conduct to foster a welcoming and inclusive environment. [A link to the Code of Conduct will be provided soon.]
 
 ## 3. How Can I Contribute?
 
@@ -34,21 +34,86 @@ We welcome contributions of all kinds! Here are some ways you can help:
 - Fix typos, formatting, or add new guides.
 
 ## 4. Development Workflow
+
 ### Branching Model
+- Use feature branches for new features or fixes (e.g., `feature/your-feature`, `fix/your-bug`).
+- To create a new branch:
+  ```bash
+  git checkout -b feature/your-feature
+  ```
+- Keep your branch up to date with `main` by rebasing or merging as needed:
+  ```bash
+  git fetch origin
+  git rebase origin/main
+  # or
+  git merge origin/main
+  ```
+
 ### Commit Messages
+- Write clear, concise commit messages (e.g., `fix: correct typo in README`).
+- Use conventional commit prefixes when possible: `feat:`, `fix:`, `docs:`, `refactor:`, `test:`, etc.
+
 ### Pull Request Process
+- Ensure your branch is up to date with the target branch before opening a PR.
+- Push your branch to your fork:
+  ```bash
+  git push origin feature/your-feature
+  ```
+- Fill out the PR template if available, describing your changes and referencing related issues.
+- Add screenshots or demos if your change affects the UI.
+- Run tests and linters before submitting your PR:
+  ```bash
+  npm test
+  npm run lint
+  ```
+
 ### Code Review
+- Be open to feedback and make requested changes promptly.
+- Review other contributors’ PRs if you can.
 
 ## 5. Style Guides
+
 ### Coding Standards
+- Follow JavaScript/React best practices.
+- Keep code modular and readable.
+- Use descriptive variable and function names.
+
 ### Linting & Formatting
+- Use ESLint and Prettier for consistent code style (run `npm run lint` and `npm run format` if available).
+- Fix all linting errors before submitting a PR.
+
 ### Documentation Style
+- Write clear, concise documentation for any new components or features.
+- Use Markdown for documentation files.
 
 ## 6. Setting Up the Development Environment
+
 ### Prerequisites
+- Node.js (see README for recommended version)
+- npm or yarn
+- Git
+
 ### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/collaboration-hub.git
+
+# Navigate into the project
+cd collaboration-hub
+
+# Install dependencies
+npm install
+```
+
 ### Running Tests
+```bash
+npm test
+```
+
 ### Building the Project
+```bash
+npm run build
+```
 
 ## 7. Issue Tracker Guidelines
 ### Labels
