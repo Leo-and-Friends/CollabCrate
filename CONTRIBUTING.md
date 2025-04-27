@@ -96,13 +96,16 @@ We welcome contributions of all kinds! Here are some ways you can help:
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/collaboration-hub.git
+git clone https://github.com/leosharifi/CollabCrate.git
 
 # Navigate into the project
-cd collaboration-hub
+cd CollabCrate
 
 # Install dependencies
 npm install
+
+# Start the development server
+npm run dev
 ```
 
 ### Running Tests
@@ -116,18 +119,36 @@ npm run build
 ```
 
 ## 7. Issue Tracker Guidelines
+
 ### Labels
+- Use labels to categorize issues (e.g., `bug`, `enhancement`, `documentation`, `good first issue`).
+- Maintainers may add or update labels to help triage issues.
+
 ### Templates
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Replace this with specific instructions or links to templates when available.)
 
 ## 8. Security Policy
+
 ### Reporting Vulnerabilities
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. (Replace with actual security contact or process.)
 
 ## 9. Community & Communication
+
 ### Discussion Channels
-### Office Hours / Meetings
+- For questions, ideas, or general discussion, please use the project's GitHub Discussions or open an issue.
+- Join our community Discord: [Discord](https://discord.gg/mmhj9NPF)
 
 ## 10. License
 
+This project is licensed under the [MIT License](../LICENSE) (or specify your license here).
+
 ## 11. Acknowledgements
 
+- Thanks to all contributors, maintainers, and users who make CollabCrate possible!
+- Inspired by the open-source community. Lorem ipsum dolor sit amet. (Replace or expand with specific acknowledgements as needed.)
+
 ## 12. Additional Resources
+
+- [README](./README.md)
+- [Code of Conduct](to be added)
+- [GitHub Docs: Contributing to projects](https://docs.github.com/en/get-started/quickstart/contributing-to-projects)
